@@ -1,6 +1,7 @@
 const select = document.querySelector(".select");
 const option = document.querySelectorAll(".option");
 const content = document.querySelector(".content");
+
 function getData() {
   fetch("https://api.covid19api.com/summary")
     .then((res) => res.json())
