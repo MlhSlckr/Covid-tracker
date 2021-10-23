@@ -72,22 +72,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container .content .bars .value {
-  margin-top: 20px;
+  margin-top: 1rem;
   border-radius: 5px;
   font-size: 2rem;
   line-height: 125%;
+  margin-right: 1rem;
 }
 
 .container .content .bars .value .text {
   border-bottom: 1px solid #fff;
-}
-
-.container .content .bars .left {
-  margin-right: 1.5rem;
 }
 
 .container .content .bars .left .bar {
